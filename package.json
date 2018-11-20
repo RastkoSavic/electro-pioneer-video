@@ -4,11 +4,12 @@
   "description": "Video Length Info",
   "main": "index.js",
   "scripts": {
-	  "electron": "electron ."
+    "electron": "electron ."
   },
   "author": "Rastko Savic",
   "license": "ISC",
   "dependencies": {
-    "electron": "^3.0.10"
+    "electron": "^3.0.10",
+    "fluent-ffmpeg": "^2.1.2"
   }
 }
