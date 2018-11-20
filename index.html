@@ -5,7 +5,20 @@
 	<form action="">
 		<div>
 			<label for="">Select a video</label>
+			<br>
+			<br>
 			<input type="file" name="" id="" accept="video/*" />
+			<br>
+			<br>
+			<button type="submit">Get Length Info</button>
 		</div>
 	</form>
+
+	<script>
+		document.querySelector('form').addEventListener('submit', (event) => {
+			event.preventDefault();
+
+			const file = document.querySelector('input').files[0];
+		});
+	</script>
 </body>
